@@ -19,6 +19,9 @@
   width: 1px !important;
   overflow: hidden;
 }
+address {
+  font-style: normal;
+}
 
 a {
   text-decoration: none;
@@ -178,7 +181,7 @@ a {
 .secondary-button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
