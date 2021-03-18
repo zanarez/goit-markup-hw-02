@@ -9,17 +9,20 @@
   --pure-black-color: #000000;
 }
 
-
 .visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px)
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
   width: 1px !important;
-  overflow: hidden
+  overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
@@ -27,7 +30,7 @@
 .page-body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
@@ -35,7 +38,7 @@
 
 .logo {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -64,15 +67,15 @@
 .contacts-nav .mail:focus,
 .contacts-nav .phone:hover,
 .contacts-nav .phone:focus {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav,
 .contacts-nav {
- font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.02em;   
+  letter-spacing: 0.02em;
 }
 
 /*contacts nav*/
@@ -86,12 +89,12 @@ color: var(--accent-color);
 
 .hero,
 .section-footer {
-    background-color: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .hero-title {
-color: var(--primary-white-color);
- font-weight: 900;
+  color: var(--primary-white-color);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -175,7 +178,7 @@ color: var(--primary-white-color);
 .secondary-button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
