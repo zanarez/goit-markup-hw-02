@@ -199,8 +199,8 @@ a {
 
 .link {
   color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.9;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .link-title {
